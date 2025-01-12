@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<h1 style="text-align: center;">Оформить заказ</h1>
+<form id="orderForm">
+  <label for="name">Имя:</label>
+  <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+  <label for="phone">Телефон:</label>
+  <input type="text" id="phone" name="phone" placeholder="Введите номер телефона" required>
+
+  <label for="order">Детали заказа:</label>
+  <textarea id="order" name="order" rows="4" placeholder="Опишите ваш заказ" required></textarea>
+
+  <button type="submit">Отправить заказ</button>
+</form>
+
+<script src="./main.js"></script>
+
+</body>
+</html>
