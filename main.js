@@ -8,7 +8,7 @@ document.getElementById("orderForm").addEventListener("submit", function (e) {
 
     const message = `Заказ от: ${name}%0AТелефон: ${phone}%0AДетали заказа:%0A${order}`;
 
-    const whatsappURL = `https://wa.me/996998707863?text=${message}`; 
+    const whatsappURL = `https://wa.me/996700480840?text=${message}`; 
 
    
     window.open(whatsappURL, "_blank");
